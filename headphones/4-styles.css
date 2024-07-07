@@ -1,0 +1,252 @@
+.background-image {
+    background-image: url(background\ \(1\).png);
+    background-size: cover;
+    background-color: #979797;
+    color: #ffffff;
+    height: 800px;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #ffffff;
+}
+a:hover {
+    color: #ff6565;
+}
+p {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: 16;
+    font-weight: 26;
+    font-style: normal;
+  }
+  h5 {
+    font-style: bold;
+    font-size: 36;
+  }
+  .container {
+    justify-content: center;
+    text-align: center;
+    padding: 300px;
+    margin: 50px;
+  }
+  button {
+    background-color: #ff6565;
+    color: #ffffff;
+    border-radius: 22px;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  img {
+    margin-top: 10px;
+    margin-left: 20;
+  }
+  nav {
+    margin-top: 10px;
+  }
+.animal {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.music {
+    justify-content: center;
+    text-align: center;
+}
+.video {
+    display: flex;
+}
+.sound {
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    line-height: 26px;
+    padding: 50px;
+}
+h5 {
+    font-family: source sans pro;
+    font-size: 32px;
+    font-weight: bold;
+}
+h6 {
+    font-family: source sans pro;
+    font-size: 18px;
+    font-weight: bold;
+}
+p {
+    font-family: source sans pro;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background {
+    background-image: url(background\ \(2\).png);
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    height: 650px;
+}
+.lorem {
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+}
+.dot {
+    display: flex;
+}
+.map {
+    flex: auto;
+    justify-items: center;
+    align-items: center;
+
+}
+.contact {
+    display: flex;
+}
+.name {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 373px;
+    margin-left: 700px;
+    padding-top: 50px;
+    font-weight: bold;
+
+}
+button {
+    border-radius: 22px;
+    background-color: #ff6565;
+    color: #ffffff;
+    width: 162px;
+    height: 44px;
+    
+}
+button:hover {
+    opacity: 0.9;
+}
+.icon {
+    background-color: #071629;
+    width: 100%;
+    height: 249px;
+}
+.copy {
+    color: #ffffff;
+    text-justify: center;
+    text-align: center;
+}
+.social {
+    display: flex;
+    flex: auto;
+    justify-content: end;
+    align-items: end;
+}
+.red {
+    display: flex;
+    flex: auto;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* MOBILE PHONE SECTION*/
+
+@media only screen and (max-width: 376px) {
+}
+    .background-image {
+    background-image: url(background\ \(3\).png);
+    background-size: auto;
+    color: #ffffff;
+    height: 896px;
+    width: 376px;
+}
+h3 {
+    justify-content: center;
+    text-align: center;
+    width: 357px;
+    height: 80px;
+    margin-top: 25%;
+}
+button {
+    background-color: #ff6565;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    margin-left: 25%;
+}
+p {
+    justify-content: center;
+    text-align: center;
+    width: 279;
+    height: 40px;
+    margin-top: 50px;
+}
+.img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.hide {
+    color: #ffffff;
+    text-decoration: none;
+    display: none;
+}
+.animal {
+    width: 376px;
+
+}
+.music {
+    width: 325px;
+    height: 288;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 207px;
+    height: 1020px;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+h5 {
+    justify-content: center;
+    text-align: center;
+}
+.background {
+    background-image: url(background\ \(4\).png);
+    width: 376px;
+    height: 1000px;
+    color: #ffffff;
+}
+.dot {
+    margin-top: 30%;
+    margin-left: 25%;
+}
+.contact {
+    width: 376px;
+    height: 420px;
+}
+.name {
+    width: 335px;
+    height: 373px;
+}
+h4 {
+    justify-content: center;
+    text-align: center;
+}
+.rep {
+    text-align: left;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    color: #ffffff;
+    width: 376px;
+    height: 249px;
+}
+.red {
+    margin-top: 20px;
+    margin-left: 25%;
+}
